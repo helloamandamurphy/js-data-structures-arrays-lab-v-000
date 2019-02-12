@@ -27,3 +27,13 @@ function prependDriver(name) {
   newDrivers = [name, ...drivers]
   return newDrivers
 }
+
+function removeDriver(name) {
+  newDrivers = [name, ...drivers]
+  return newDrivers
+}
+
+function prependDriver(name) {
+  newDrivers = [name, ...drivers]
+  return newDrivers
+}
