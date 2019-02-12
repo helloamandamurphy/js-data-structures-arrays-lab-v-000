@@ -28,12 +28,12 @@ function prependDriver(name) {
   return newDrivers
 }
 
-function removeDriver(name) {
-  newDrivers = [name, ...drivers]
+function removeLastDriver(name) {
+  newDrivers = [drivers.slice(-1)]
   return newDrivers
 }
 
-function prependDriver(name) {
+function removeFirstDriver(name) {
   newDrivers = [name, ...drivers]
   return newDrivers
 }
